@@ -1,0 +1,20 @@
+package school;
+
+public class Score {
+	private int studentId, kscore, mscore;
+	private Subject subject;
+	
+	public int getScore() {
+		return score;
+	}
+	public void setScore(int score) {
+		this.score = score;
+	}
+	public Subject getSubject() {
+		return subject;
+	}
+	public void setSubject(Subject subject) {
+		this.subject = subject;
+	}
+	
+}

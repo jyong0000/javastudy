@@ -1,0 +1,20 @@
+package ch08.sec02;
+
+public class RemoteControlExample {
+
+	public static void main(String[] args) {
+		RemoteControl rc = new Television();
+		rc.turnon();
+		rc.setVolume(5);
+		rc.turnoff();
+		
+		RemoteControl ac = new Audio();
+		ac.turnon();
+		ac.setVolume(5);
+		ac.turnoff();
+		//상수 => 클래스명, 필드명
+		System.out.println(RemoteControl.MAX_VOLUME);
+		System.out.println(RemoteControl.MIN_VOLUME);
+	}
+
+}

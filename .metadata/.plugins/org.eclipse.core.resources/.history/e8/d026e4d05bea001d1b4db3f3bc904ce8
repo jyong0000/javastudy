@@ -1,0 +1,13 @@
+package school;
+
+import java.util.ArrayList;
+
+public class Student {
+
+	private ArrayList<Student> studentlist = new ArrayList<Student>();
+	public static void main(String[] args) {
+
+
+	}
+
+}

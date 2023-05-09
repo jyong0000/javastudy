@@ -1,0 +1,12 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="ch06.sec12.kumho.AllSeasonTire"><rhs name\="ch06.sec12.kumho.AllSeasonTire"/></lhs><lhs name\="ch07.sec04.exam1.Calculator"><rhs name\="ch07.sec04.exam1.Calculator"/></lhs><lhs name\="ch07.sec07.exam02.Parent"><rhs name\="ch07.sec07.exam02.Child"/></lhs><lhs name\="ch07.sec07.exam02.Child"><rhs name\="ch07.sec07.exam02.Child"/></lhs><lhs name\="ch07.sec08.exam01.Tire"><rhs name\="ch07.sec08.exam01.HankookTire"/></lhs><lhs name\="ch08.sec02.RemoteControl"><rhs name\="ch08.sec02.Television"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.RandomAccess"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Cloneable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.AbstractList"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.AbstractCollection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.ArrayList"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.modeling.ch01.gip.MainBoard"><rhs name\="java.modeling.ch01.gip.MainBoard"/></lhs><lhs name\="java.modeling.ch01.gip.Memory"><rhs name\="java.modeling.ch01.gip.Memory"/></lhs><lhs name\="java.modeling.ch01.gip.PowerSupply"><rhs name\="java.modeling.ch01.gip.PowerSupply"/></lhs><lhs name\="application.StudentInfoApplication"><rhs name\="application.StudentInfoApplication"/></lhs><lhs name\="school.report.GenerateGradeReport"><rhs name\="school.report.GenerateGradeReport"/></lhs><lhs name\="grade.GradeEvaluation"><rhs name\="grade.BasicEvaluation"/><rhs name\="grade.MajorEvaluation"/></lhs></history>
+content_assist_number_of_computers=12
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=23
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

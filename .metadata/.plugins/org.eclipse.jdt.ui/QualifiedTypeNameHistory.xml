@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.io.StringBufferInputStream"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="ch06.sec12.hankook.Tire"/>
+    <fullyQualifiedTypeName name="ch06.sec12.kumho.Tire"/>
+    <fullyQualifiedTypeName name="ch06.sec12.kumho.AllSeasonTire"/>
+    <fullyQualifiedTypeName name="ch06.sec13.exam02.pakage01.A"/>
+    <fullyQualifiedTypeName name="ch07.sec02.SmartPhone"/>
+    <fullyQualifiedTypeName name="ch07.sec02.Phone"/>
+    <fullyQualifiedTypeName name="javax.sql.rowset.CachedRowSet"/>
+    <fullyQualifiedTypeName name="ch07.sec04.exam1.Calculator"/>
+    <fullyQualifiedTypeName name="ch07.sec06.package1.A"/>
+    <fullyQualifiedTypeName name="ch07.sec07.exam02.Child"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="ch07.sec08.exam01.HankookTire"/>
+    <fullyQualifiedTypeName name="ch06.sec12.hankook.SnowTire"/>
+    <fullyQualifiedTypeName name="ch08.sec02.Television"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="ch08.sec02.RemoteControl"/>
+    <fullyQualifiedTypeName name="ch08.sec10.exam02.Vehicle"/>
+    <fullyQualifiedTypeName name="java.modeling.ch01.gip.MainBoard"/>
+    <fullyQualifiedTypeName name="java.modeling.ch01.gip.Memory"/>
+    <fullyQualifiedTypeName name="java.modeling.ch01.gip.PowerSupply"/>
+    <fullyQualifiedTypeName name="school.School"/>
+    <fullyQualifiedTypeName name="school.Subject"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="application.StudentInfoApplication"/>
+    <fullyQualifiedTypeName name="school.report.GenerateGradeReport"/>
+    <fullyQualifiedTypeName name="school.Student"/>
+    <fullyQualifiedTypeName name="grade.GradeEvaluation"/>
+    <fullyQualifiedTypeName name="grade.BasicEvaluation"/>
+    <fullyQualifiedTypeName name="grade.MajorEvaluation"/>
+    <fullyQualifiedTypeName name="utils.Define"/>
+    <fullyQualifiedTypeName name="javax.security.auth.Subject"/>
+</qualifiedTypeNameHistroy>

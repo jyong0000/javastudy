@@ -1,0 +1,8 @@
+package ch08.sec02;
+
+public interface RemoteControl {
+	//인터페이스는 상수 + 추상메솓, => 상속만을 위해서 쓴다.
+	
+	//추상메소드
+	public void turnon();
+}

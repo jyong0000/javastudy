@@ -1,0 +1,42 @@
+package school.report;
+
+import java.util.ArrayList;
+
+import school.School;
+import school.Subject;
+
+public class GenerateGradeReport {
+	School school = School.getInstance(); //school 싱글톤 객체 생성
+	
+	public static final String TITLE = "수강생 학점 \t\t\n";
+	public static final String HEADER = "이름 | 학번 | 필수과목 | 점수     \n";
+	public static final String LINE = "---------------------------------------------\n";
+	private StringBuffer buffer = new StringBuffer();
+	
+	//헤더, 몸통, 푸터를 합쳐주는 메소드
+	public String getReport() {
+		ArrayList<Subject> subjectList = school.getSubjectList(); //학교에 개설된 과목리스트를 불러온다.
+		
+		//학교에 개설된 과목을 하나씩 가져온다.
+		for(Subject subject : subjectList) {
+			makeHeader(subject);
+		}
+		return buffer.toString(); //StringBuffer => String 타입으로 변경해준다.
+	}
+		
+	//헤더를 만들어주는 메소드
+	public void makeHeader(Subject subject) {
+		buffer.append(GenerateGradeReport.LINE);
+		buffer.append("\t" + subject.getSubjectName()); //과목명
+		buffer.append(GenerateGradeReport.TITLE);
+		buffer.append(GenerateGradeReport.HEADER);
+		buffer.append(GenerateGradeReport.LINE);
+	}
+
+	//몸통을 만들어주는 메소드
+	public void makeBody(Subject subject) {}
+	
+	//푸터를 만들어주는 메소드
+	public void makeFooter() {}
+	
+}
