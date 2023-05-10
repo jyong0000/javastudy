@@ -7,11 +7,13 @@ import grade.SeatType;
 public class Passenger {
 	private String passengerName;
 	private int passengerId;
+	private Seat seatType;
 	private ArrayList<SeatNumber> seatnumberList = new ArrayList<>();
 	
-	public Passenger(String passengerName, int passengerId) {
+	public Passenger(String passengerName, int passengerId,Seat seatType ) {
 		this.passengerName = passengerName;
 		this.passengerId = passengerId;
+		this.seatType = seatType;
 	}
 	
 	public void addSeatNumber(SeatNumber seatnumber) {
@@ -41,6 +43,14 @@ public class Passenger {
 
 	public void setSeatnumberList(ArrayList<SeatNumber> seatnumberList) {
 		this.seatnumberList = seatnumberList;
+	}
+
+	public Seat getSeatType() {
+		return seatType;
+	}
+
+	public void setSeatType(Seat seatType) {
+		this.seatType = seatType;
 	}
 	
 	

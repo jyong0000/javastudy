@@ -51,11 +51,19 @@ public class AirplaneApplication {
 		first.register(passenger4);
 		first.register(passenger6);
 		
+		addSeatForPassenger(passenger1, economy, 1);
+		addSeatForPassenger(passenger2, first, 1);
+		addSeatForPassenger(passenger3, economy, 4);
+		addSeatForPassenger(passenger4, first, 5);
+		addSeatForPassenger(passenger5, economy,16 );
+		addSeatForPassenger(passenger6, first, 3);
 		
 
 	}
 	
-	public void addSeatForPassenger(Passenger passenger, int passengerId, int seatnum) {
-				
+	public void addSeatForPassenger(Passenger passenger, Seat seat, int num) {
+		SeatNumber sn = new SeatNumber(passenger.getPassengerId(),seat, num);
+		passenger.addSeatNumber(sn);
+		System.out.println();
 	}
 }
