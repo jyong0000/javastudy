@@ -10,7 +10,7 @@ public class Report {
 	Airplane airplane = Airplane.getInstance();
 	
 	public static final String TITLE = "좌석 안내       \n";
-	public static final String HEADER = "이름 | 승객번호 | 좌석 | 좌석번호     \n";
+	public static final String HEADER = "이름 | 승객번호 | 좌석 | 좌석번호 | 열    \n";
 	public static final String LINE = "====================================================\n";
 	private StringBuffer buffer = new StringBuffer();
 	
@@ -41,7 +41,7 @@ public class Report {
 			buffer.append(" | " );
 			buffer.append(passenger.getPassengerId());
 			buffer.append(" | " );
-			buffer.append(passenger.getSeatType());
+			buffer.append(passenger.getSeatType().getSeatName());
 			buffer.append(" | " );
 			
 			getSeat(passenger,seat.getSeatId());
@@ -66,9 +66,10 @@ public class Report {
 				ST = seatType[Define.E_TYPE].getSeat(seatnumber.getSeatnumber());
 			}
 			buffer.append(seatnumber.getSeatnumber());
-			buffer.append(":");
+			buffer.append("번좌석");
+			buffer.append(" | ");
 			buffer.append(ST);
-			buffer.append("|");
+			buffer.append(" | ");
 		}
 	}
 	
