@@ -64,17 +64,17 @@ public class Report {
 			
 			if(seatnumber.getSeat().getSeatId() == firstId) {
 				ST = seatType[Define.F_TYPE].getSeat(seatnumber.getSeatnumber());
-				price = seatType[Define.F_TYPE].getSeat(seatnumber.getSeatnumber());
+				price = seatType[Define.F_TYPE].getPrice(seatnumber.getSeatnumber());
 			}else {
 				ST = seatType[Define.E_TYPE].getSeat(seatnumber.getSeatnumber());
-				price = seatType[Define.F_TYPE].getSeat(seatnumber.getSeatnumber());
+				price = seatType[Define.E_TYPE].getPrice(seatnumber.getSeatnumber());
 			}
 			buffer.append(seatnumber.getSeatnumber());
 			buffer.append("번좌석");
 			buffer.append(" | ");
 			buffer.append(ST);
 			buffer.append(" | ");
-			buffer.append(price + "원");
+			buffer.append(price);
 			buffer.append(" | ");
 		}
 	}
