@@ -6,8 +6,11 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value=""/>
+		<item key="selection" value="major"/>
 		<list key="findhistory">
+			<item value="major"/>
+			<item value="majot"/>
+			<item value="ma"/>
 			<item value="9000"/>
 			<item value="ow"/>
 		</list>

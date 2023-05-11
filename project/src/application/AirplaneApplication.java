@@ -1,7 +1,6 @@
 package application;
 
 import airplane.*;
-import grade.SeatType;
 import report.Report;
 import utils.Define;
 
@@ -16,8 +15,8 @@ public class AirplaneApplication {
 		ap.createSeat();
 		ap.createPassenger();
 		
-//		String report = ap.report.getReport();
-//		System.out.println(report);
+		String report = ap.report.getReport();
+		System.out.println(report);
 	}
 	
 	public void createSeat() {
@@ -55,7 +54,7 @@ public class AirplaneApplication {
 		addSeatForPassenger(passenger2, first, 1);
 		addSeatForPassenger(passenger3, economy, 4);
 		addSeatForPassenger(passenger4, first, 5);
-		addSeatForPassenger(passenger5, economy,16 );
+		addSeatForPassenger(passenger5, economy,15);
 		addSeatForPassenger(passenger6, first, 3);
 		
 

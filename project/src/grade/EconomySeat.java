@@ -15,7 +15,7 @@ public class EconomySeat implements SeatType{
 		}else if (13<= seatnum && seatnum <= 16) {
 			m = "4열입니다.";
 		}else {
-			m = "잘못된 입력입니다,";
+			m = "잘못된 입력입니다.";
 		}
 		return m;
 	}
