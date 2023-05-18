@@ -1,9 +1,0 @@
-package java_modeling_ch01_asso02;
-
-import java.util.ArrayList;
-
-public class Course {
-	//필드
-	private String name;
-	private Arraylist<Student> student;
-}
